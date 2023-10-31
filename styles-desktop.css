@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFB7C5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this CSS to your stylesheet to set the font for the entire page */
+body, p, ul, li {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 19px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFD4DC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px; /* Rounded border */
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+}
+
+.round-image {
+    border-radius: 50%; 
+}
+
+.round-image:hover {
+    filter: grayscale(100%); /* Convert the image to black and white (100% grayscale) on hover */
+    transition: filter 0.3s; /* Add a smooth transition effect */
+}
+
+/* Style for the specific class for <p> elements inside .info */
+.info p {
+    padding: 10px;
+    width:93%;
+    border: 1px solid #DADDF7;
+    background-color: #DADDF7; 
+    border-radius: 10px; 
+    padding: 10px; 
+    transition: transform 0.3s;
+}
+
+
+.info p:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+
+/* Style to stack <p> elements in a vertical line and center-align them */
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px 0;
+    border: 1px solid #FFF0F4; /* Pastel pink border */
+    background-color: #FFF0F4; /* Pastel purple background */
+    border-radius: 10px; /* Rounded border */
+    padding: 10px; /* Add some padding for spacing inside the border */
+    
+}
+
+
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+
